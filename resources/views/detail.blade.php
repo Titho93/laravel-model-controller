@@ -9,6 +9,7 @@
                 <p class="card-text"><strong>Nationality:</strong> {{ $movie->nationality }}</p>
                 <p class="card-text"><strong>Date:</strong> {{ $movie->date }}</p>
                 <p class="card-text"><strong>Vote:</strong> {{ $movie->vote }}</p>
+                <a href="{{ route('home') }}" class="btn btn-danger">Home</a>
             </div>
         </div>
     @endsection
