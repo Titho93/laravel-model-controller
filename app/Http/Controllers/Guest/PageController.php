@@ -20,4 +20,8 @@ class PageController extends Controller
 
         return view('detail', compact('movie'));
     }
+    public function features()
+    {
+        return view('features');
+    }
 }
